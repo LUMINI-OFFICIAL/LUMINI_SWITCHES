@@ -2,12 +2,8 @@
 #include <WebSocketsClient.h>
 #include <ArduinoJson.h>
 #include <Servo.h>
-//#include "Secrets.hpp" // Make sure this file contains the necessary secrets
+#include "Secrets.hpp"
 
-
-String ssid = "IOT_HUB_AP";
-String password = "RaspBerry";
-String webSocketServerAddress = "192.168.4.1";
 const int webSocketServerPort = 81;
 
 WebSocketsClient webSocket;
